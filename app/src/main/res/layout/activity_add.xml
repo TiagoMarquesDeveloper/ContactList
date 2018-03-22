@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Button
+        android:id="@+id/bttadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittextphone"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="add"></Button>
+    <EditText
+        android:id="@+id/edittextphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:layout_below="@+id/phonelabel"
+        android:layout_alignParentLeft="true"
+        >
+    </EditText>
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:id="@+id/phonelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:layout_below="@+id/edittextname"
+        android:layout_alignParentLeft="true"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/edittextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@+id/namelabel"
+        android:layout_alignParentLeft="true"
+        >
+    </EditText>
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:id="@+id/namelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_below="@+id/imagelogo"
+        android:layout_alignParentLeft="true"
+        >
+    </TextView>
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imagelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/titletext"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/contacticon"></ImageView>
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Contact"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+</RelativeLayout>

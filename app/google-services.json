@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "326517140404",
+    "firebase_url": "https://contactlist-b312d.firebaseio.com",
+    "project_id": "contactlist-b312d",
+    "storage_bucket": "contactlist-b312d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326517140404:android:a912d6f752712192",
+        "android_client_info": {
+          "package_name": "com.example.tiago.contactlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326517140404-t1mnnmj4mcj9mv08ia01jr0s6qge5qer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiago.contactlist",
+            "certificate_hash": "ac4a5152e3010a194a57008ea2caf18fd5e1117a"
+          }
+        },
+        {
+          "client_id": "326517140404-o5mbgtd3f6ht8ap354igo7erf01gp1i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQLwwutjIMR_C8PC5jMYDZ6K-zRdwDq2c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326517140404-o5mbgtd3f6ht8ap354igo7erf01gp1i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
